@@ -1,0 +1,5 @@
+site_name: Team 2928 Programming
+site_url: https://2928-frc-tutorials.readthedocs.io
+nav:
+    - Home: 
+        - index.md
