@@ -1,9 +1,12 @@
 # Progamming Environment Setup
 
-Setup the following components:
+Setup the following components: 
+[Dev Components]
 
-- VSCode with WPILib
+- VSCode
+- WPILib
 - Github accounts
+- Documentation
 
 ## Learning Objectives
 
