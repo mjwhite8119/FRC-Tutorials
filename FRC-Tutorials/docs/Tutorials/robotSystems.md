@@ -9,9 +9,9 @@ Generally, we need to get the robot to do three things:
 - **Step 2**. Understand and interpret what's around it.  Targets, game pieces, ect.
 - **Step 3**. Physically interact with those objects.
 
-All of those tasks will require processing data. From a programming perspective you can think of a robot as a data driven machine.  Data is constantly being fed into it from onboard sensors that are detecting the world around it and telling it about its current state. The internal brain of the robot, which is usually some kind of *Single Board Computer (SBC)*, will interpret the data and make a plan as to what to do next.
+All of those tasks will require processing data. From a programming perspective you can think of a robot as a data driven machine.  Data is constantly being fed into it from onboard sensors that are detecting the world around it and telling it about its current state. Our control algorithms will interpret the data and make a plan what to do next.
 
-We'll start with the code needed to create the basic robot structure, then talk about subsystems and commands, and that will give us the components to go onto the most interesting stuff, which is the control algorithms.  The control algorithms is where all of the creative stuff happens.
+In order to do this we need to represent the robot in computer code.  We'll start with the code needed to create the basic robot structure, then talk about subsystems and commands, and that will give us the components to go onto the most interesting stuff, which is the control algorithms.  The control algorithms is where all of the creative stuff happens.
 
 The mechanical and electrical teams deal with the atoms and the programming team deals with the bytes.
 
